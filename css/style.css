@@ -1,0 +1,913 @@
+
+@font-face {
+	font-family: 'RoadRadio'; 
+	src: url("/fonts/RoadRadio.ttf"); 
+}
+* {
+  box-sizing: border-box;
+  line-height: 1;
+}
+.page {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #202020;
+  background-image: url("/img/backonly.png");
+  
+}
+
+.main-page{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/img/Group_29.png");
+  flex-direction: column;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;  
+}
+.customers-page{
+  margin-top: 80px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+.elements-left{
+  display: flex;
+  flex-direction: column;
+  padding-left: 240px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 41px;
+  gap: 472px;
+}
+.address-header{
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+.customers-main-text{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67.101px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: #232323;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.address-name{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;  
+  line-height: 140%;
+  color: #232323;
+}
+.vk-head{
+  margin-left: 24px;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.address-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+.map-head{
+  margin-left: 78px;
+}
+
+.footer {
+  background-color: #f1f1f1;
+}
+.address-header-two{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.btn-header{
+  width: 211px;
+  height: 64px;
+  border-radius: 57.2525px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  border: 1px solid #EF831B;
+  background-color: #EF831B;
+  color: white;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  gap: 124px;
+  margin-top: 58px;
+  list-style-type: none;
+  justify-content: center;
+}
+.menu-item{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  cursor: pointer;
+}
+.rating-item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 72px;
+  gap: 17px;
+}
+.rating-item-title{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #232323;
+}
+.main-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.square-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+}
+.main-text-item-first{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67.101px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: #000000;
+}
+.main-text-item-last{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67.101px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: #3787FF;
+}
+.arrow-text-container{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.square-text-item-first{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  color: #232323;
+}
+.square-text-item-last{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  color: #232323;
+}
+.arrows-main{
+  position: absolute;
+  top: 596px;
+  left: 707px;
+}
+.btn-container-main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 44px;
+  margin-bottom: 95px;
+}
+.btn-calc{
+  background-repeat: no-repeat;
+  width: 343px;
+  height: 91px;
+  border: 1px solid #EF831B;
+  border-radius: 50px;
+  background-color: #EF831B;
+  color: white;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.0662px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.calc-image{
+  width: 186px;
+  height: 97px;
+}
+.customers-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 66px;
+  gap: 30px;
+}
+.customers-items-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.customers-item{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-bottom: auto;
+}
+.customers-item-img{
+  background-color: white;
+  border-radius: 23px;
+}
+.cust-item-img-cont{
+  display: flex;
+  flex-direction: column;
+}
+.customers-img-success{
+  background-color: white;
+  border-radius: 23px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -19px;
+}
+.customers-item-text{
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #232323;
+}
+.cus-it-text-container{
+  display: flex;
+  flex-direction: column;
+}
+.see-page{
+  margin-top: 89px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+.see-main-text{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67.101px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: #232323;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.see-text-description{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #232323;
+  margin-top: 5px;
+}
+.slider-first-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 45px;
+  gap: 1135px;
+  align-items: center;
+}
+.date-worked-text{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #232323;
+}
+.button-left-see{
+  background: #3787FF;
+  box-shadow: 0px 29px 24px -29px rgba(154, 105, 59, 0.2), inset 0px 4px 7px rgba(255, 255, 255, 0.25), inset 0px 9px 17px rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  background-image: url("/img/arrow-left.png");
+  width: 41px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+}
+.button-right-see{
+  background: #3787FF;
+  box-shadow: 0px 29px 24px -29px rgba(154, 105, 59, 0.2), inset 0px 4px 7px rgba(255, 255, 255, 0.25), inset 0px 9px 17px rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  background-image: url("/img/arrow-right.png");
+  width: 41px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+}
+.slide-one-buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.slider-see{
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  margin-top: 27px;
+  align-items: center;
+}
+.slid-see-item{
+  display: flex;
+  width: 425px;
+  height: 282px;
+  border-radius: 25px;
+}
+.slid-see-item-active{
+  width: 504px;
+  height: 369px;
+}
+.slidimg{
+  width: inherit;
+  height: inherit;
+}
+.clients-page{
+  margin-top: 160px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+.clients-main-text{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67.101px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: #232323;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.clients-text-description{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #232323;
+  margin-top: 5px;
+}
+.slider-two-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 240px;
+  margin-top: 34px;
+}
+.slider-clients{
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  margin-top: 27px;
+  align-items: center;
+}
+.button-left-clients{
+  background: #3787FF;
+  box-shadow: 0px 29px 24px -29px rgba(154, 105, 59, 0.2), inset 0px 4px 7px rgba(255, 255, 255, 0.25), inset 0px 9px 17px rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  background-image: url("/img/arrow-left.png");
+  width: 41px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+}
+.button-right-clients{
+  background: #3787FF;
+  box-shadow: 0px 29px 24px -29px rgba(154, 105, 59, 0.2), inset 0px 4px 7px rgba(255, 255, 255, 0.25), inset 0px 9px 17px rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  background-image: url("/img/arrow-right.png");
+  width: 41px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+}
+.slid-clients-item{
+  display: flex;
+  width: 425px;
+  height: 282px;
+  border-radius: 25px;
+}
+.slid-clients-item-active{
+  width: 504px;
+  height: 369px;
+}
+.clientimg{
+  width: inherit;
+  height: inherit;
+}
+.chose-page{
+  margin-top: 177px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+.chose-main-text{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67.101px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: #232323;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.chose-text-description{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #232323;
+  margin-top: 5px;
+}
+.connection-container{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  margin-top: 78px;
+}
+.input-conn{
+  width: 486px;
+  height: 106px;
+  background: #EBEBEB;
+  box-shadow: inset 5.07076px 5.07076px 12.6769px rgba(255, 255, 255, 0.5);
+  border-radius: 88px;
+  border:none;
+  outline: none;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+}
+.input-conn::placeholder{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 32px;
+  color: #676767;
+  text-align: center;
+}
+.btn-conn{
+  width: 407px;
+  height: 109px;
+  background: #EF831B;
+  box-shadow: 0px 37.2799px 30.8523px -37.2799px rgba(154, 105, 59, 0.2), inset 0px 5.14205px 8.99858px rgba(255, 255, 255, 0.25), inset 0px 11.5696px 21.8537px rgba(255, 255, 255, 0.25);
+  border-radius: 66px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+.quote-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 78px;
+  max-width: 739px;
+}
+.calculator-page{
+  margin-top: 160px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+
+}
+.calculator-main-text{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68.0097px;
+  line-height: 135%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #232323;
+  padding: 0px;
+  margin: 0px;
+}
+.calculator-slider-container{
+  display: flex;
+  margin-top: 27px;
+  align-items: center;
+  margin-bottom: 55px;
+}
+.calculator-item{
+  display: none;
+  border-radius: 26px;
+  background-color: white;
+  max-width: 926px;
+  padding-left: 36px;
+  flex-direction: column;
+}
+.calculator-item-active{
+  display: flex;
+}
+.progress-block{
+  display: flex;
+  background: #F7F7F7;
+  border-radius: 93px;
+  margin-right: 36px;
+  margin-top: 36px;
+  width: 862px;
+  align-items: center;
+}
+.prgs-img{
+  margin-right: auto;
+}
+.prgs-type{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.2302px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: black;
+  margin-right: auto;
+  margin-top: 18px;
+}
+
+.calculator-question{
+  margin-top: 12px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.2844px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #232323;
+}
+.calculator-text-first{
+  margin-top: 8px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #232323;
+}
+.calculator-text-first:first-child{
+  max-width: 380px;
+}
+.itemses-ceiling{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 21px;
+  grid-row-gap: 65px;
+  padding-right: 36px;
+  margin-top: 31px;
+}
+.itemses-ceiling-item{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.itemses-ceiling-item-text{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2167px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  max-width: 170px;
+  cursor: pointer;
+}
+.next-container-calc{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 36px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.info-next-calc{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.info-next-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.176px;
+  line-height: 140%;
+  color: #232323;
+  max-width: 230px;
+}
+.info-next-btn{
+  display: flex;
+  flex-direction: row;
+}
+.pointer-info{
+  height: 39px;
+}
+.info-next-btn{
+  width: 200px;
+  height: 76px;
+  background: #EF831B;
+  box-shadow: 0px 29.3927px 24.325px -29.3927px rgba(154, 105, 59, 0.2), inset 0px 4.05417px 7.09479px rgba(255, 255, 255, 0.25), inset 0px 9.12188px 17.2302px rgba(255, 255, 255, 0.25);
+  border-radius: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: none;
+  cursor: pointer;
+}
+.info-btn-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.176px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.contacts-page{
+  margin-top: 100px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.contacts-main-text{
+  font-family: 'RoadRadio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 135%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #232323;
+  padding: 0px;
+  margin: 0px;
+}
+.container-contacts{
+  display: flex;
+  flex-direction: row;
+  margin-top: 54px;
+  gap: 100px;
+}
+.contacts-information{
+  display: flex;
+  flex-direction: column;
+  max-width: 573px;
+  border-radius: 23px;
+  background-color: white;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 69px;
+  border: 1px solid black;
+}
+.contact-name{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.0802px;
+  line-height: 135%;
+  color: #3E3E3E;
+}
+.contact-value{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27.6963px;
+  line-height: 140%;
+  color: #232323;
+}
+.frame-map{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 23px;
+  height: inherit;
+}
+.span-item-form{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.item-input-form{
+  width: 371px;
+  height: 70px;
+  background: #EBEBEB;
+  box-shadow: inset 4.66667px 4.66667px 11.6667px rgba(255, 255, 255, 0.5);
+  border-radius: 11px;
+  outline: none;
+  border: none;
+  padding: 23px;
+  font-size: 17px;
+}
+.item-form{
+  display: flex;
+  flex-direction: column;
+  gap:19px;
+}
+.formses-calc{
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  margin-top: 22px;
+}
+.formses-inputen{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.right-img-calc{
+  width: 440px;
+}
+.connection-container-calc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-top: 78px;
+}
+.input-conn-calc {
+  width: 406px;
+  height: 106px;
+  background: #EBEBEB;
+  box-shadow: inset 5.07076px 5.07076px 12.6769px rgba(255, 255, 255, 0.5);
+  border-radius: 88px;
+  border: none;
+  outline: none;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+}
+.first-prgs {
+  width: auto;
+  background: none;
+}
+.right-img-calc-last {
+  margin-bottom: 93px;
+}
+.selectimg{
+  width: 100%;
+}
+.selectimg-mobile{
+  width: 100%;
+  display: none;
+}
+.last-prgs {
+  width: inherit;
+}
+
+
+
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #818181;
+}
+.menu-mobile{
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  margin-left: auto;
+  margin-right: 20px;
+  top: 10;
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: auto;
+}
+.mobile-menu-item{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.mobile-menu-item:hover{
+  color: #f1f1f1;
+}
+.mobile-menu-item:focus{
+  color: #f1f1f1;
+}
+.closebtn:hover{
+  color: #f1f1f1;
+}
+.closebtn:focus{
+  color: #f1f1f1;
+}
+
+
+.itemses-ceiling-img{
+  cursor: pointer;
+}
+
+.text-orange{
+  border: 7px solid #EF831B;
+  border-radius: 8px;
+}
